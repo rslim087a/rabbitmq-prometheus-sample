@@ -1,0 +1,9 @@
+rabbitmq:
+  url: http://rabbitmq.database-monitoring:15672
+  user: rabbitmquser
+  password: rabbitmqpass
+
+serviceMonitor:
+  enabled: true
+  namespace: database-monitoring
+  interval: 30s
